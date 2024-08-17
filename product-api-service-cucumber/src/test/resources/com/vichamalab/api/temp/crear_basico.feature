@@ -1,7 +1,7 @@
 # language: es
 Requisito: Crear un nuevo producto usando la api /api/v1/product
 
-  Escenario: Crear un producto con éxito
+  Escenario: Crear un producto con éxito - basico
     Dada una API válida con formato "application/json" 
     Cuando se hace una petición con el nombre "Myphone 15"
     * y la descripción "Smartphone de la compania MyApple"

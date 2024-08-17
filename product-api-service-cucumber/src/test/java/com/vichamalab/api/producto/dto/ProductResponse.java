@@ -1,4 +1,4 @@
-package com.vichamalab.test.dto;
+package com.vichamalab.api.producto.dto;
 
 import java.util.List;
 import lombok.Builder;
