@@ -10,7 +10,6 @@ import org.junit.platform.suite.api.Suite;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("com/vichamalab/api/producto")
-@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.vichamalab.api.producto.steps,com.vichamalab.api.producto.hooks")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, 
 value = "pretty,"
 		+ "html:target/reports/report.html, "
